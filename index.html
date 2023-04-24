@@ -1,0 +1,129 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Uhlala!" />
+    <meta name="author" content="Uhlala!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Uhlala!</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="module">
+      import { faker } from "https://cdn.skypack.dev/pin/@faker-js/faker@v7.6.0-gos0hwPsBen4rbtoIqy3/mode=imports,min/optimized/@faker-js/faker/locale/es_MX.js";
+
+      let categories;
+
+      const processData = (data) => {
+        showResult("");
+        const boton = document.getElementById("boton");
+        boton.disabled = true;
+
+        if (!categories) {
+          categories = data;
+        }
+        let params = {
+          name: faker.name.fullName(),
+          email: faker.internet.email(),
+          rut: genRut(),
+          answers: [],
+        };
+        categories.forEach(({ name, nominees }) => {
+          name = decodeURIComponent(escape(name));
+          let answer = {
+            category: name,
+          };
+          if (name === "Mejor Podcast") {
+            answer.answer = "El Sentido del Humor";
+          } else if (name === "Mejor programa de conversación") {
+            answer.answer = "Entre Broma y Broma";
+          } else {
+            answer.answer = decodeURIComponent(
+              escape(nominees[Math.floor(Math.random() * nominees.length)].name)
+            );
+          }
+          params.answers.push(answer);
+        });
+        console.warn(params);
+        fetch(
+          "https://formulario.latercera.com/encuestas/inc/enc-copihue-2023.php",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(params),
+          }
+        )
+          .then((response) => response.json())
+          .then((data) => {
+            console.log("Success:", data);
+            if (data.message === "Data saved successfully") {
+              showResult(
+                `Enhorabuena ${params.name}, rut ${params.rut} has votado por la cochiguagua *guiño guiño*`
+              );
+            } else {
+              showResult(
+                "No se, nos cacharon o el weon del rut generado ya votó por otro. Intenta de luego plis"
+              );
+            }
+            boton.disabled = false;
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+            showResult("Algo salió mal, conchetumare!");
+            boton.disabled = false;
+          });
+      };
+
+      const genRut = () => {
+        let number = Math.floor(Math.random() * 99000000) + 1000000;
+        let mod = getMod(number);
+        return `${number}-${mod}`;
+      };
+
+      const getMod = (number) => {
+        var M, S;
+        M = 0;
+        S = 1;
+        while (number) {
+          S = (S + (number % 10) * (9 - (M++ % 6))) % 11;
+          number = Math.floor(number / 10);
+        }
+        if (S) {
+          return S - 1;
+        } else {
+          return "K";
+        }
+      };
+
+      const showResult = (msj) => {
+        document.getElementById("result").innerHTML = msj;
+      };
+
+      window.onload = () => {
+        document.getElementById("boton").onclick = () => {
+          processData();
+        };
+        fetch("data.json")
+          .then((response) => response.json())
+          .then(processData);
+      };
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MH1K8W486C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MH1K8W486C');
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Uhlala!</h1>
+        <button id="boton">No estoy convencido, probar de nuevo</button>
+        <p id="result"></p>
+      </div>
+    </div>
+  </body>
+</html>
