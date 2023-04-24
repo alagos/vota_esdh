@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "87f29bac-19dc-4907-a21c-9aa20dc2f9be",
+    "name": "Matinal del aÃ±o",
+    "sort": 1,
+    "sponsors": [
+      {
+        "brand": {
+          "name": "Paris",
+          "claim": null,
+          "url": "https://www.paris.cl/",
+          "logos": {
+            "svg_light": {
+              "id": "b45393ee-99e4-46d7-8f9c-2e51359154ce",
+              "file": {
+                "id": "f6de190c-b454-4f7e-be50-7db0230fdea1",
+                "filename_download": "logo-paris.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "svg_dark": {
+              "id": "cd85da26-bd7d-4292-b040-d86d07801382",
+              "file": {
+                "id": "f6de190c-b454-4f7e-be50-7db0230fdea1",
+                "filename_download": "logo-paris.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "__typename": "logo"
+          },
+          "fonts": null,
+          "__typename": "brand"
+        },
+        "__typename": "AwardCategory_brand"
+      }
+    ],
+    "nominees": [
+      {
+        "id": "d0f62880-58e6-4267-9766-9c16bf48a8cc",
+        "name": "Buenos dÃ­as a Todos",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "79d51759-9a73-4249-b6a7-a77664396c3b",
+        "name": "Tu DÃ­a",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "04f7d148-95f4-44e6-ac92-aa3c713bd279",
+        "name": "Contigo en la maÃ±ana",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "8542df2f-f77c-456c-9d37-8396e2336101",
+        "name": "Mucho Gusto",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "cc7a21b0-ef97-4a02-bf87-b7d463202336",
+        "name": "Sabores",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "6041acc7-b379-49ba-96e3-47e5e978ff4d",
+    "name": "Noticiero del aÃ±o",
+    "sort": 2,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "e7ed2dc1-b1e9-4796-b698-0d282a0c4a78",
+        "name": "Teletrece",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "0f793b37-f5ab-49a2-a20c-a5ca84fea0ae",
+        "name": "CHV Noticias",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "4b99204f-5fb4-48d6-b81b-79bf7a5ef2ba",
+        "name": "CNN Prime",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "028d900d-c3e1-42a4-8a8f-fe4105e25236",
+        "name": "24 Horas",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "0993fb67-2812-4204-9e2f-74daca2e952d",
+        "name": "Meganoticias",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "dbacd5db-7f81-4613-8aa2-a1125db231a1",
+    "name": "Mejor programa de actualidad",
+    "sort": 3,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "bc20430f-2080-46be-81cb-5a38077a39f5",
+        "name": "Mesa Central",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "cc226d74-e214-4be3-9318-c6e0bfe3a207",
+        "name": "Estado Nacional",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "9cfabdbc-290d-46f0-95ca-3f0a14a026d7",
+        "name": "Tolerancia Cero",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "2c161328-5785-41fc-8a9e-6149db8c79c3",
+        "name": "Sin Filtros",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "f4738c20-43fb-4d1f-9244-a2875bd2d1b0",
+        "name": "100 Indecisos",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "d3b5a153-63d6-4b39-8710-bbbf80c8d5f5",
+    "name": "Animador del aÃ±o",
+    "sort": 4,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "d2266ee9-1c70-4943-9d07-e050f0f67f8e",
+        "name": "Julio CÃ©sar RodrÃ­guez",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "fc374e6c-cb4a-4606-b7c5-a3de8995e812",
+        "name": "Sergio Lagos",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "35f8486c-be4c-4003-8e51-9c129f4d1afa",
+        "name": "Eduardo Fuentes",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "01a15db3-b855-4a49-9a42-b24f1d844bc2",
+        "name": "JosÃ© Luis Reppening",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "0b3ad0e1-87b0-4b5e-b8eb-023051c05190",
+        "name": "Jean Philippe Cretton",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "c770c41c-028a-4845-84df-89ebde40496f",
+        "name": "JosÃ© Antonio Neme",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "4c0124a7-e5be-4258-8b63-bdeff6a70e95",
+    "name": "Animadora del aÃ±o",
+    "sort": 5,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "9b90f6f4-04e0-4b89-924c-da04689d82ed",
+        "name": "Monserrat Ãlvarez",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "68e4dd68-b64a-4245-9687-948c7a2fd08b",
+        "name": "Priscilla Vargas",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "49aec45a-00c8-445d-bd5f-068e365cb932",
+        "name": "MarÃ­a Luisa Godoy",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "73b9699c-4923-466b-b232-1386d392d097",
+        "name": "Millaray Viera",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "97072ce6-576e-4e73-8e2b-d299eb14afdb",
+        "name": "Karen Doggenweiler",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "55f89500-f10f-4e1f-866f-daac2ab75340",
+        "name": "Yamila Reyna",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "e0e6fc2c-f3ec-4aa6-b0e3-be8575dfb188",
+    "name": "Notero/a del aÃ±o",
+    "sort": 6,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "feeeafcd-1829-44e9-a94a-289db9906bdb",
+        "name": "Rodrigo PÃ©rez",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "39915ef2-b38a-4e34-875a-77c147b6b355",
+        "name": "Ana MarÃ­a Silva",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "64f532f8-07d4-4e03-8f61-5669c9d12657",
+        "name": "Josefina Valenzuela",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "8c827cee-c4d7-4b2d-b215-18d28050f6d5",
+        "name": "Luis Ugalde",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "4f1b311e-522f-480b-b0bd-d390bbd3595c",
+        "name": "Daniela MuÃ±oz",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "e66fad69-46b2-411a-9c5f-50e349031344",
+        "name": "Daniela ValdeÌs",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "6a83c6b2-ed3f-4e61-a90a-704de6bfd3e6",
+    "name": "Programa deportivo del aÃ±o (radio y televisiÃ³n)",
+    "sort": 7,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "204c9e4e-950e-4ee5-bd01-a35e1796856f",
+        "name": "Todos Somos TÃ©cnicos",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "1ba7cb69-fa05-4651-ae2b-3877cd68d07c",
+        "name": "Al Aire Libre",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "841b143b-850d-437f-9b1f-3e290893c654",
+        "name": "Deportes Agricultura",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "5d7fea10-59dc-4e5a-b766-52533215b215",
+        "name": "Los Tenores",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "b58d27dc-28db-4fa5-882a-e5ba1740a4f3",
+        "name": "F90",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "6668cd74-4ca7-4f7e-ad86-5f972717f2de",
+    "name": "Programa radial del aÃ±o",
+    "sort": 8,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "cf8edd86-3e19-4879-bab4-4a293aa114d4",
+        "name": "Central Radioactiva",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "8be60d23-1145-4465-8165-0b8f21982ca4",
+        "name": "PongÃ¡monos Serios",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "2c7edccb-ab81-48f1-a250-cc967f98ab88",
+        "name": "La maÃ±ana de la CorazÃ³n",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "8ece7297-2b29-4674-afe8-ef89b8f4195d",
+        "name": "Sacando la vuelta",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "bd38477e-2f1a-4ea8-a22c-88d75f92b9a8",
+        "name": "La MaÃ±ana de Pablo Aguilera",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "d611fdfc-aeeb-46f4-ba63-8f6f9b710744",
+    "name": "Deportista del aÃ±o",
+    "sort": 9,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "c9553f70-c323-480b-bc2f-37a5caa87c33",
+        "name": "JoaquÃ­n Niemann",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "d313680b-99b7-483d-bf92-4bd904ba1eb3",
+        "name": "BÃ¡rbara HernÃ¡ndez",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "414c16ff-38b7-49b8-9c7b-e1a4d073a498",
+        "name": "Christiane Endler",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "9c61d9b7-016e-4fd6-a227-dc3e65072f0f",
+        "name": "NicolÃ¡s Jarry",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "13651eb8-e93e-4e9c-a903-d0468f229001",
+        "name": "Alexis SÃ¡nchez",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "3a0034fa-9b11-44f2-8c34-5b2b4992e113",
+    "name": "Artista urbano del aÃ±o",
+    "sort": 10,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "8171e501-c3b8-431f-b4fe-05884063092d",
+        "name": "Pablo Chill-e",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "1eb22fbc-f88d-4e28-8324-b8538ed769c2",
+        "name": "PolimÃ¡ WestCoast",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "7cc0345f-1dd6-43f0-846d-18e2b8f76562",
+        "name": "Young Cister",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "4da96fec-70b1-4a05-a07d-3f6e9d7b4099",
+        "name": "Julianno Sosa",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "f5c841db-f6fd-4ffb-ac34-678ae3ac4fd4",
+        "name": "Standly",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "f18693fa-5491-4f75-8774-83c22b288651",
+        "name": "Cris MJ",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "c68e45d2-ac5d-492f-9602-cb4925a88491",
+        "name": "El Jordan 23",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "b39790fd-1b96-4795-8554-dd4a2a11fcdb",
+        "name": "Jere Klein",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "5e9a947a-74b0-4dbf-a709-f382f13626ee",
+    "name": "Artista urbana del aÃ±o",
+    "sort": 11,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "0e2430c3-157c-4315-ae12-7a40f74783a5",
+        "name": "Flor de Rap",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "9075e5a5-4b40-47eb-b39d-36bdcce3ddd2",
+        "name": "Akriila",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "f1387b71-8f1c-4a2a-aacf-19c8f43b2c6b",
+        "name": "Kya",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "48f6cd8f-674d-46bb-ad41-3b39f8940964",
+        "name": "Vlntna B",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "b3852259-35a1-4454-ab24-21fab79ef6f9",
+        "name": "Loyaltty",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "1af3f0ae-0420-4bab-b53b-9c5a1cd47d49",
+        "name": "Shirel",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "c4ad42c3-a881-49dc-a141-5930ad55b1a9",
+        "name": "Akatumamy",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "3414356b-7381-424e-af09-5a2a13f46bb1",
+    "name": "Creadores de contenido",
+    "sort": 12,
+    "sponsors": [
+      {
+        "brand": {
+          "name": "Kaiyi",
+          "claim": null,
+          "url": "https://kaiyi.cl/",
+          "logos": {
+            "svg_light": {
+              "id": "ceded831-8371-4c47-a415-a545d8929c16",
+              "file": {
+                "id": "100f8088-04d5-45cc-a4ac-dba1d76a463d",
+                "filename_download": "logo-kaiyi.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "svg_dark": {
+              "id": "4a7ea775-f8a7-4170-b848-cece0f7fd718",
+              "file": {
+                "id": "100f8088-04d5-45cc-a4ac-dba1d76a463d",
+                "filename_download": "logo-kaiyi.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "__typename": "logo"
+          },
+          "fonts": null,
+          "__typename": "brand"
+        },
+        "__typename": "AwardCategory_brand"
+      }
+    ],
+    "nominees": [
+      {
+        "id": "8accd523-dd32-45cf-8cfd-7a0ade41d4f7",
+        "name": "Chico ElÃ©ctrico",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "f0e75682-024b-4f1b-b01d-3fd64db71f7f",
+        "name": "Diego Urrutia",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "7eb24faf-e62d-46c7-b125-e84f022c7ef8",
+        "name": "Ignacia Antonia",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "d66b7d3f-8d9b-46da-9957-4a484e98543a",
+        "name": "Tati FernÃ¡ndez",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "cd6f8e27-46b5-40c8-b852-f6545348adab",
+        "name": "Jorgito Parrillero",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "6b81e3e6-4b1b-4dea-9984-c5601ab5442d",
+    "name": "Artista pop del aÃ±o",
+    "sort": 13,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "51c847d3-ff73-4ba9-aba3-4d234b6d9626",
+        "name": "Noche de Brujas",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "409ad075-1d8e-436d-a4e7-b4f70223d5ba",
+        "name": "Arte Elegante",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "dc274f57-fefd-42d1-8b57-78006a84f8b3",
+        "name": "Denise Rosenthal",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "b6c0c940-7ccc-41e9-9fff-10c3bd1e7927",
+        "name": "Santaferia",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "112210cb-f728-4bd2-bac5-76b8edccef0a",
+        "name": "ZÃºmbale primo",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "88653097-607c-4c14-a729-12f54033c332",
+        "name": "Cami",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "f87097bb-ea19-47b7-aa0c-fb506afffb81",
+    "name": "ActuaciÃ³n del aÃ±o",
+    "sort": 14,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "1de907ac-3158-4a50-9f88-f5f04e2e184e",
+        "name": "GastÃ³n Salgado",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "19427989-6202-4991-8cb1-e20a60032adf",
+        "name": "Javiera Contador",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "b84930fc-ba68-44b4-aff9-707f15597bed",
+        "name": "Gabriel CaÃ±as",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "64e78047-fcb7-4718-9553-2d509ca9b3e1",
+        "name": "Magdalena MÃ¼ller",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "afdf16d1-0ad7-4681-aca5-6e4eefccbaba",
+        "name": "Daniel AlcaÃ­no",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "05adc615-411c-42c7-b233-6b1a63c2177b",
+    "name": "Mejor producciÃ³n nacional",
+    "sort": 15,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "fc58f8ff-8c36-49de-a5d0-b264fc9fb933",
+        "name": "Casado con Hijos",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "f1b2627f-2445-418c-9741-9e3168bf4dcf",
+        "name": "La ley de Baltazar",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "1856802a-6765-42be-af68-5524f1b201b8",
+        "name": "El DÃ­a Menos Pensado",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "64deba31-7caa-4d0a-be3e-c20f1128dbaa",
+        "name": "42 dÃ­as en la oscuridad",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "01a90967-2bd6-4ed9-8172-b27a75e406ed",
+        "name": "Hijos del desierto",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "da9d6239-05fe-42cb-8ff6-8ca77a7f8a88",
+        "name": "Cromosoma 21",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "676bf89e-8e6a-47cb-ba82-3b2a8dc38e6d",
+    "name": "Mejor programa de cultura y viajes",
+    "sort": 16,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "9107827e-714c-4c31-98aa-bd843a534720",
+        "name": "Sabingo",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "f7182ca3-3492-4d7f-915a-484231507982",
+        "name": "Buscando a Dios",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "48b11f53-5f36-4824-9198-ea2cfd33b415",
+        "name": "Socios por el mundo",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "d5b9794a-1759-43b2-a275-cd56ef9156e8",
+        "name": "Atlas de Chile",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "c9234937-6dc6-453b-b189-c4b249272d44",
+        "name": "De Paseo",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "fdc36d34-77ab-48ca-8fc0-014b45c80913",
+    "name": "Mejor programa de entretenciÃ³n",
+    "sort": 17,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "fd24ac1c-b57f-4e8d-a475-2adfe6da72ce",
+        "name": "AquÃ­ se baila",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "e09ef8c3-766a-43f0-96ad-064fb759acd3",
+        "name": "El retador",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "7b8adc3f-92c9-498f-8ac9-bed5f9b293e1",
+        "name": "The Voice",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "b15cf03d-7347-4de3-8898-a276992d59e4",
+        "name": "Yo Soy",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "955a6c3c-c284-47b0-9c3e-52d4bb16f581",
+        "name": "Famosos a Clases",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "ebb9ccf6-4824-46e1-9138-dc8ee210542c",
+    "name": "Mejor Podcast",
+    "sort": 18,
+    "sponsors": [],
+    "nominees": [
+      {
+        "id": "bf0c5515-6a17-46c0-bf6b-ba9fc5fec495",
+        "name": "TomÃ¡s Va a Morir",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "02001336-b9b3-48f6-9ea1-a680d286ab3c",
+        "name": "Caso 63",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "0c5c34b4-67dd-4705-b9d8-713c3f92a0ad",
+        "name": "El Sentido del Humor",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "ad127dc0-3b31-4ca0-ab45-fec58082c791",
+        "name": "Expertas en Nada",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "19592b92-c703-4a86-b1f4-02001b9b0a37",
+        "name": "Con la ayuda de mis Amikas",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "00c9dcce-03bf-4166-aa47-f1a675308132",
+        "name": "Weona que creici",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "144e1d25-e7b5-4a32-9106-5c8f86a00b82",
+    "name": "Mejor programa de conversaciÃ³n",
+    "sort": 19,
+    "sponsors": [
+      {
+        "brand": {
+          "name": "Unimarc",
+          "claim": null,
+          "url": "https://www.unimarc.cl/",
+          "logos": {
+            "svg_light": {
+              "id": "561f05bc-1418-4c67-b9bc-a3e2e48b9dc1",
+              "file": {
+                "id": "a24948b9-b7ce-40fb-a5f7-1d1ea9591913",
+                "filename_download": "logo-unimarc.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "svg_dark": {
+              "id": "13fe42e2-0524-44fa-b5e1-9e68a1d11728",
+              "file": {
+                "id": "a24948b9-b7ce-40fb-a5f7-1d1ea9591913",
+                "filename_download": "logo-unimarc.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "__typename": "logo"
+          },
+          "fonts": null,
+          "__typename": "brand"
+        },
+        "__typename": "AwardCategory_brand"
+      }
+    ],
+    "nominees": [
+      {
+        "id": "4b8ef3ed-fe82-486f-90af-adb5fe5aa2a1",
+        "name": "La Junta",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "024e73b9-8370-468b-bee4-0a09f1c3f17e",
+        "name": "Socios de la Parrilla",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "fc139724-dca4-4cdb-82d5-36941acfd079",
+        "name": "Tal Cual",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "07dbf138-2df1-4bf8-ae3e-cfab99877e10",
+        "name": "De TÃº a TÃº",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "5d9d6749-b736-42b4-988c-4e29aaac4851",
+        "name": "Entre Broma y Broma",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "80b25d6a-7cf8-4491-9b75-2ee231755d69",
+        "name": "Podemos Hablar",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "927c67e7-c032-4f1c-bc8b-7266394ef121",
+    "name": "Rey Pop",
+    "sort": 20,
+    "sponsors": [
+      {
+        "brand": {
+          "name": "Aurus",
+          "claim": null,
+          "url": "https://www.aurusjoyeria.cl/",
+          "logos": {
+            "svg_light": {
+              "id": "66daef4e-38f9-4eb6-acc4-1d814d19f3df",
+              "file": {
+                "id": "0d0e14ec-3c1b-485b-8f2f-9c4cdd43a42e",
+                "filename_download": "logo-aurus.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "svg_dark": {
+              "id": "ed0c8449-a786-473c-a1b0-a7bb66058db0",
+              "file": {
+                "id": "0d0e14ec-3c1b-485b-8f2f-9c4cdd43a42e",
+                "filename_download": "logo-aurus.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "__typename": "logo"
+          },
+          "fonts": null,
+          "__typename": "brand"
+        },
+        "__typename": "AwardCategory_brand"
+      }
+    ],
+    "nominees": [
+      {
+        "id": "a7377c59-cb51-4a04-a34a-d16646569897",
+        "name": "JosÃ© Luis Reppening",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "23633201-7bd1-4e05-b701-02b47ebdddec",
+        "name": "Pailita",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "4738cda2-c738-4d36-8922-aa84881ca0cc",
+        "name": "Esteban Paredes",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "b675df05-3eb0-46dc-ade9-a9fb6f2f863c",
+        "name": "Jorge Zabaleta",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "2307d128-24f2-438f-802f-216406c9c46b",
+        "name": "Daniel Fuenzalida",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  },
+  {
+    "id": "da4290ab-77a7-4e1c-b703-457674ee4134",
+    "name": "Reina Pop",
+    "sort": 21,
+    "sponsors": [
+      {
+        "brand": {
+          "name": "Aurus",
+          "claim": null,
+          "url": "https://www.aurusjoyeria.cl/",
+          "logos": {
+            "svg_light": {
+              "id": "66daef4e-38f9-4eb6-acc4-1d814d19f3df",
+              "file": {
+                "id": "0d0e14ec-3c1b-485b-8f2f-9c4cdd43a42e",
+                "filename_download": "logo-aurus.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "svg_dark": {
+              "id": "ed0c8449-a786-473c-a1b0-a7bb66058db0",
+              "file": {
+                "id": "0d0e14ec-3c1b-485b-8f2f-9c4cdd43a42e",
+                "filename_download": "logo-aurus.svg",
+                "width": null,
+                "height": null,
+                "__typename": "directus_files"
+              },
+              "__typename": "vector"
+            },
+            "__typename": "logo"
+          },
+          "fonts": null,
+          "__typename": "brand"
+        },
+        "__typename": "AwardCategory_brand"
+      }
+    ],
+    "nominees": [
+      {
+        "id": "4c43d26d-618e-466e-b33b-7b4358d43ba7",
+        "name": "MarÃ­a JosÃ© Quintanilla",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "fd4b4083-2357-4163-9048-8cd1ff829606",
+        "name": "Millaray Viera",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "17053fd8-460f-44d4-a31d-cc89ba42cdab",
+        "name": "Pamela Leiva",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "73d8de1a-be50-46b0-8f18-351b1805194a",
+        "name": "Tita Ureta",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      },
+      {
+        "id": "256f4348-593f-4b07-bb29-afefd2e2084f",
+        "name": "Carmen Gloria Arroyo",
+        "sort": null,
+        "avatarurl": null,
+        "__typename": "AwardNominee"
+      }
+    ],
+    "__typename": "AwardCategory"
+  }
+]
