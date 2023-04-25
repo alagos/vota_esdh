@@ -13,8 +13,6 @@
 
       const processData = (data) => {
         showResult("");
-        const boton = document.getElementById("boton");
-        boton.disabled = true;
 
         if (!categories) {
           categories = data;
@@ -61,15 +59,15 @@
               );
             } else {
               showResult(
-                "No se, nos cacharon o el weon del rut generado ya votó por otro. Intenta de luego plis"
+                `<b>No se, nos cacharon o el rut ${params.rut} ya votó?. El copihue nos respondio: ${JSON.stringify(data)}</b>`
               );
             }
-            boton.disabled = false;
+            sleepAndRun();
           })
           .catch((error) => {
             console.error("Error:", error);
             showResult("Algo salió mal, conchetumare!");
-            boton.disabled = false;
+            sleepAndRun();
           });
       };
 
@@ -95,13 +93,20 @@
       };
 
       const showResult = (msj) => {
-        document.getElementById("result").innerHTML = msj;
+        document.getElementById("result").innerHTML += `${msj}<br/>`;
       };
 
-      window.onload = () => {
-        document.getElementById("boton").onclick = () => {
+      const sleepAndRun = () => {
+        const secsToWait = Math.floor(Math.random() * 45) + 15;
+        showResult(
+          `Esperando ${secsToWait} segundos para el siguiente voto`
+        );
+        setTimeout(() => {
           processData();
-        };
+        }, secsToWait * 1000);
+      }
+
+      window.onload = () => {
         fetch("data.json")
           .then((response) => response.json())
           .then(processData);
@@ -121,7 +126,6 @@
     <div class="container">
       <div class="content">
         <h1>Uhlala!</h1>
-        <button id="boton">No estoy convencido, probar de nuevo</button>
         <p id="result"></p>
       </div>
     </div>
