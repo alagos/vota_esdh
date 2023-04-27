@@ -57,12 +57,13 @@
               showResult(
                 `Enhorabuena ${params.name}, rut ${params.rut} has votado por la cochiguagua *guiño guiño*`
               );
+              sleepAndRun(50);
             } else {
               showResult(
-                `<b>No se, nos cacharon o el rut ${params.rut} ya votó?. El copihue nos respondio: ${JSON.stringify(data)}</b>`
+                `<b>No funcionó ${params.rut}. El copihue nos respondio: ${JSON.stringify(data)}</b>`
               );
+              sleepAndRun();
             }
-            sleepAndRun();
           })
           .catch((error) => {
             console.error("Error:", error);
@@ -96,8 +97,8 @@
         document.getElementById("result").innerHTML += `${msj}<br/>`;
       };
 
-      const sleepAndRun = () => {
-        const secsToWait = Math.floor(Math.random() * 45) + 15;
+      const sleepAndRun = (time = 0) => {
+        const secsToWait = Math.floor(Math.random() * time) + 5;
         showResult(
           `Esperando ${secsToWait} segundos para el siguiente voto`
         );
